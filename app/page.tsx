@@ -7,7 +7,6 @@ import AmbientWind from '@/components/AmbientWind';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import FadeSection from '@/components/FadeSection';
-import ServicesSection from '@/components/ServicesSection';
 import ScrollWaves from '@/components/ScrollWaves';
 import ValueProposition from '@/components/ValueProposition';
 import AboutSection from '@/components/AboutSection';
@@ -30,10 +29,6 @@ export default function Home() {
           <Navbar />
           <main>
             <HeroSection />
-
-            <FadeSection>
-              <ServicesSection />
-            </FadeSection>
 
             <ScrollWaves />
 
