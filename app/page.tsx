@@ -12,6 +12,7 @@ import ScrollWaves from '@/components/ScrollWaves';
 import ValueProposition from '@/components/ValueProposition';
 import AboutSection from '@/components/AboutSection';
 import ProcessTimeline from '@/components/ProcessTimeline';
+import StickyGallery from '@/components/StickyGallery';
 import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
 
@@ -35,6 +36,8 @@ export default function Home() {
             </FadeSection>
 
             <ScrollWaves />
+
+            <StickyGallery />
 
             <FadeSection delay={0.1}>
               <ValueProposition />
